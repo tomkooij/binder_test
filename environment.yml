@@ -1,4 +1,3 @@
-name: hisparc-binder
 channels:
 - conda-forge
 dependencies:
