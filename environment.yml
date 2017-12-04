@@ -1,11 +1,13 @@
-name: example-binder
+name: binder
 channels:
   - conda-forge
 dependencies:
   - python=3.6
   - numpy
   - matplotlib
+  - scipy
   - pytables
   - healpy
   - pip:
     - hisparc-sapphire
+    - smopy
