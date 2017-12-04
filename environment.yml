@@ -1,0 +1,11 @@
+name: hisparc-binder
+channels:
+- conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - tables
+  - healpy
+pip:
+  - hisparc-sapphire
